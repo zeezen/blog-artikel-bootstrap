@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ze Blog</title>
+    <!-- CSS Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS Boostrap -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                Ze Blog
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artikel-section">Artikel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak-section">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- HOME -->
+    <div class="container mt-5" id="cari-section">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Cari Artikel" aria-label="CariArtikel">
+            <button class="btn btn-outline-success" type="submit">Cari</button>
+        </form>
+    </div>
+
+    <style>
+        .card-img {
+            max-height: 300px;
+            object-fit: cover;
+        }
+    </style>
+    <!-- Daftar Artikel -->
+    <div class="container mt-5" id="artikel-section">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card text-center mb-3">
+                    <img src="img/foto-artikel-1.jpg" class="card-img-top  object-fit-cover" style="height: 18rem;"
+                        alt="foto-artikel-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Informasi Milky Way</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ea magni
+                            debitis incidunt excepturi numquam corporis, quaerat itaque! Enim, eos!
+                        </p>
+                        <a href="artikel-1.html" class="btn btn-primary">Baca Artikel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-center mb-3">
+                    <img src="img/foto-artikel-2.jpg" class="card-img-top  object-fit-cover" style="height: 18rem;"
+                        alt="foto-artikel-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Fakta Milky Way</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ea magni
+                            debitis incidunt excepturi numquam corporis, quaerat itaque! Enim, eos!
+                        </p>
+                        <a href="#" class="btn btn-primary">Baca Artikel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-center mb-3">
+                    <img src="img/foto-artikel-3.jpg" class="card-img-top  object-fit-cover" style="height: 18rem;"
+                        alt="foto-artikel-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Berita Milky Way</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ea magni
+                            debitis incidunt excepturi numquam corporis, quaerat itaque! Enim, eos!
+                        </p>
+                        <a href="#" class="btn btn-primary">Baca Artikel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-center mb-3">
+                    <img src="img/foto-artikel-4.jpg" class="card-img-top  object-fit-cover" style="height: 18rem;"
+                        alt="foto-artikel-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Catatan Milky Way</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ea magni
+                            debitis incidunt excepturi numquam corporis, quaerat itaque! Enim, eos!
+                        </p>
+                        <a href="#" class="btn btn-primary">Baca Artikel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Daftar Artikel -->
+    <!-- HOME -->
+
+    <!-- ABOUT -->
+    <div class="container mt-5" id="about-section">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="text-center mb-4">About Ze Blog</h2>
+                <p class="text-center">Ze Blog adalah platform blog yang menyediakan berbagai artikel informatif dan
+                    inspiratif di berbagai
+                    bidang seperti teknologi, seni, kesehatan, dan banyak lagi. Kami bertujuan untuk memberikan konten
+                    berkualitas tinggi kepada pembaca kami dan menjadi sumber inspirasi bagi mereka.</p>
+                <p class="text-center">Bergabunglah dengan komunitas kami dan nikmati pengalaman membaca yang
+                    menyenangkan di Ze Blog!</p>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT -->
+
+    <!-- KONTAK -->
+    <style>
+        .social-icon {
+            text-decoration: none;
+        }
+    </style>
+    <div class="container my-5" id="kontak-section">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="text-center mb-4">Hubungi Kami</h2>
+                <div class=" row text-center">
+                    <a href="https://facebook.com" class="social-icon"><i class="fab fa-facebook"></i> Ze Blog
+                        Facebook</a>
+                    <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i> Ze_Blog_X</a>
+                    <a href="https://instagram.com" class="social-icon"><i class="fab fa-instagram"></i> Ze_Blog_ins</a>
+                    <a href="https://whatsapp.com" class="social-icon"><i class="fab fa-whatsapp"></i> +62
+                        81231231231</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- KONTAK -->
+
+    <!-- FOOTER -->
+    <footer class="footer mt-auto py-3 bg-body-tertiary">
+        <div class="container text-center">
+            <span class="text-muted">© 2024 Ze Blog. All rights reserved.</span>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+
+    <!-- Javascript Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Javascript Boostrap -->
+</body>
+
+</html>
